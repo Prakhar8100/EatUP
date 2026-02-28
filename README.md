@@ -1,4 +1,4 @@
-# EatUP - Food Delivery Frontend
+﻿# EatUP - Food Delivery Frontend
 
 A modern, responsive food delivery web application built with React and Vite. This frontend provides a seamless user experience for browsing food items, filtering options, and managing orders.
 
@@ -24,27 +24,27 @@ EatUP (MunchMate) is a food delivery platform frontend that allows users to:
 
 ## Project Structure
 
-`powershell
+`
 EatUP/Frontend/
-+-- src/
-�   +-- main.jsx              # Application entry point
-�   +-- App.jsx               # Root component
-�   +-- App.css               # Global styles
-�   +-- index.css             # Global CSS setup
-�   +-- components/
-�   �   +-- Navbar.jsx        # Navigation bar with menu & search
-�   �   +-- Hero.jsx          # Hero banner section
-�   �   +-- HeadlineCards.jsx # Promotional cards
-�   �   +-- Food.jsx          # Food items grid with filters
-�   +-- data/
-�   �   +-- data.js           # Food items and categories data
-�   +-- assets/               # Static assets
-+-- public/                   # Public assets
-+-- index.html                # HTML entry point
-+-- package.json              # Dependencies and scripts
-+-- vite.config.js            # Vite configuration
-+-- eslint.config.js          # ESLint configuration
-+-- README.md                 # This file
+├── src/
+│   ├── main.jsx              # Application entry point
+│   ├── App.jsx               # Root component
+│   ├── App.css               # Global styles
+│   ├── index.css             # Global CSS setup
+│   ├── components/
+│   │   ├── Navbar.jsx        # Navigation bar with menu & search
+│   │   ├── Hero.jsx          # Hero banner section
+│   │   ├── HeadlineCards.jsx # Promotional cards
+│   │   └── Food.jsx          # Food items grid with filters
+│   ├── data/
+│   │   └── data.js           # Food items and categories data
+│   └── assets/               # Static assets
+├── public/                   # Public assets
+├── index.html                # HTML entry point
+├── package.json              # Dependencies and scripts
+├── vite.config.js            # Vite configuration
+├── eslint.config.js          # ESLint configuration
+└── README.md                 # This file
 `
 
 ## Features
@@ -71,7 +71,7 @@ EatUP/Frontend/
 - **Food** - Main food display with:
   - Grid layout (responsive 2-4 columns)
   - Category filters (All, Burgers, Pizza, Salads, Chicken)
-  - Price range filters ($, $$, $-Raw, $-Raw$)
+  - Price range filters (\$, \$\$, \$\$\$, \$\$\$\$)
   - Food cards with images, names, and prices
   - Hover animations
 
@@ -85,13 +85,13 @@ EatUP/Frontend/
 ### Installation
 
 1. Clone the repository:
-`powershell
+`ash
 git clone <repository-url>
 cd EatUP/Frontend
 `
 
 2. Install dependencies:
-`powershell
+`ash
 npm install
 `
 
@@ -99,7 +99,7 @@ npm install
 
 Start the development server with hot module replacement (HMR):
 
-`powershell
+`ash
 npm run dev
 `
 
@@ -109,7 +109,7 @@ The application will be available at http://localhost:5173
 
 Build the project for production:
 
-`powershell
+`ash
 npm run build
 `
 
@@ -117,7 +117,7 @@ npm run build
 
 Preview the production build locally:
 
-`powershell
+`ash
 npm run preview
 `
 
@@ -125,7 +125,7 @@ npm run preview
 
 Check and lint the code:
 
-`powershell
+`ash
 npm run lint
 `
 
@@ -147,7 +147,7 @@ Each food item includes:
 - name - Food item name
 - category - Category (burger, pizza, salad, chicken)
 - image - Image URL
-- price - Price range ($, -Raw, -Raw$, -Raw-Raw)
+- price - Price range (\$, \$\$, \$\$\$, \$\$\$\$)
 
 ### Categories
 Available food categories for filtering:
