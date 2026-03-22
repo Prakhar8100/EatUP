@@ -24,7 +24,7 @@ EatUP (MunchMate) is a food delivery platform frontend that allows users to:
 
 ## Project Structure
 
-`
+```
 EatUP/Frontend/
 ├── src/
 │   ├── main.jsx              # Application entry point
@@ -45,7 +45,7 @@ EatUP/Frontend/
 ├── vite.config.js            # Vite configuration
 ├── eslint.config.js          # ESLint configuration
 └── README.md                 # This file
-`
+```
 
 ## Features
 
@@ -70,10 +70,11 @@ EatUP/Frontend/
 
 - **Food** - Main food display with:
   - Grid layout (responsive 2-4 columns)
-  - Category filters (All, Burgers, Pizza, Salads, Chicken)
-  - Price range filters (\$, \$\$, \$\$\$, \$\$\$\$)
-  - Food cards with images, names, and prices
-  - Hover animations
+  - **Working category filters** (All, Burgers, Pizza, Salads, Chicken) - click to filter items
+  - **Working price range filters** (\$, \$\$, \$\$\$, \$\$\$\$) - click to filter by price
+  - Food cards with product images, names, and prices
+  - Hover animations (scale up effect)
+  - Real-time filtering with state management
 
 ## Getting Started
 
@@ -85,23 +86,23 @@ EatUP/Frontend/
 ### Installation
 
 1. Clone the repository:
-`ash
+```bash
 git clone <repository-url>
 cd EatUP/Frontend
-`
+```
 
 2. Install dependencies:
-`ash
+```bash
 npm install
-`
+```
 
 ### Development
 
 Start the development server with hot module replacement (HMR):
 
-`ash
+```bash
 npm run dev
-`
+```
 
 The application will be available at http://localhost:5173
 
@@ -109,25 +110,25 @@ The application will be available at http://localhost:5173
 
 Build the project for production:
 
-`ash
+```bash
 npm run build
-`
+```
 
 ### Preview
 
 Preview the production build locally:
 
-`ash
+```bash
 npm run preview
-`
+```
 
 ### Linting
 
 Check and lint the code:
 
-`ash
+```bash
 npm run lint
-`
+```
 
 ## Styling
 
@@ -163,18 +164,30 @@ The application is fully responsive with breakpoints for:
 - **Tablet** - Medium screens (md)
 - **Desktop** - Large screens (lg)
 
+## Completed Features
+
+- [x] Responsive component layout
+- [x] Food filtering by category
+- [x] Food filtering by price range
+- [x] Mobile-friendly navigation
+- [x] Search bar UI
+- [x] Cart button
+- [x] Promotional cards display
+
 ## Future Enhancements
 
 Potential features to implement:
 - [ ] Product detail pages
-- [ ] Shopping cart functionality
+- [ ] Shopping cart functionality with state persistence
 - [ ] User authentication and profiles
 - [ ] Order history
 - [ ] Payment integration
-- [ ] Reviews and ratings
+- [ ] Reviews and ratings system
 - [ ] Real-time order tracking
 - [ ] Favorites management
 - [ ] Backend API integration
+- [ ] Combined filters (category AND price)
+- [ ] Search functionality
 
 ## License
 
